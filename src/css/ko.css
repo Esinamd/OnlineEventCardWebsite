@@ -1,0 +1,277 @@
+@import "styles.css";
+
+.kor{
+    background-color: var(--korBackgroundColour);
+    padding: 3% 0;
+}
+
+.kor .hide {
+    display: none;
+}
+
+.kor img {
+    width: 70%;
+    margin-top: 2.5%;
+    margin-left: 13%;
+    margin-bottom: 2.5%;
+}
+
+.kor a {
+    text-decoration: none;
+    font-family: var(--korFont-secondary);
+    color: var(--korBlue);
+    font-weight: 800;
+}
+
+.kor h1 {
+    font-family: var(--korFont-primary);
+    color: var(--korWhite);
+}
+
+.kor h3 {
+    font-family: var(--korFont-secondary);
+    color: var(--korWhite);
+}
+
+.kor p {
+    font-family: var(--korFont-secondary);
+    color: var(--korBlack); 
+}
+
+.kor .shareButtons {
+    float: right;
+    margin-top: 1.5%;
+    width: 20%;
+    text-align: center;
+    margin-right: 9%;
+}
+
+.kor .shareTitle {
+    font-family: var(--korFont-secondary);
+    color: var(--korBlue);
+    font-weight: 800;
+    text-align: center;
+    font-size: larger;
+}
+
+.kor .backTitle {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    margin-right: 4%;
+    font-family: var(--korFont-secondary);
+}
+
+.kor button {
+    font-family: var(--korFont-primary);
+    color: var(--korWhite);
+    background-color: var(--korBlack);
+    border-radius: 7.5px;
+}
+
+.kor iframe {
+    pointer-events: none;
+}
+
+.kor .title{
+    background-color: var(--korBlack);
+    padding: 20px 0;
+    padding-left: 20px;
+}
+
+.kor .latest, .kor .previewMessage {
+    background-color: var(--korRed);
+    border-radius: 8px;
+    padding: 3%;
+    width: 65%;
+    margin-left: 5%;
+}
+
+.kor .latest {
+    margin-top: -3%;
+}
+
+.kor .writeMessage {
+    background-color: var(--korRed);
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    border-radius: 8px;
+}
+
+.kor .previewMessage {
+    padding: 1.5%;
+    width: 55%;
+    float: left;
+}
+
+.kor .in {
+    background-color: var(--korBackgroundColour);
+    color: var(--korBlack);
+    font-weight: 625;
+    font-size: 3vmin;
+    border-radius: 7.5px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.kor .in h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.kor .in p {
+    margin-left: 5%;
+}
+
+.kor .latest-card {
+    margin-left: 0.75%;
+    margin-right: 0.75%;
+    background-color: var(--korBackgroundColour);
+    border-radius: 7.5px;
+    margin-bottom: 2%;
+}
+
+.kor .links {
+    color: var(--korBlue);
+    font-family: var(--korFont-secondary);
+    text-align: right;
+    margin-right: 1.5%;
+    float: right;
+    cursor: pointer;
+}
+
+.kor .CT {
+    font-weight:800;
+}
+
+.kor .greeting {
+    color: var(--korBlue);
+    margin-right: 20%;
+    float: right;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.kor .other-events, .kor .fun-facts {
+    background-color: var(--korRed);
+    border-radius: 8px;
+    padding: 3%;
+    margin: 0 5%
+}
+
+.kor .other-events {
+    margin-top: -7%;
+    margin-bottom: 2%;
+}
+
+.kor .fun-facts {
+    padding: 0.2% 2%;
+    margin-top: 3%;
+    display: inline-block;
+    margin-bottom: 2%;
+    width: 86%;
+}
+
+.kor .fun-facts p {
+    background-color: var(--korBackgroundColour);
+    border-radius: 6px;
+    padding: 0.75%;
+    color: var(--korBlack);
+    font-family: var(--korFont-secondary);
+}
+
+.kor form {
+    display: inline-grid;
+    width: 90%;
+    margin: 5%;
+}
+
+.kor form input, .kor form textarea {
+    margin: 1%;
+    background-color: var(--korBackgroundColour);
+    border-radius: 7.5px;
+    font-size: 18px;
+    font-family: var(--korFont-secondary);
+    color: var(--korBlack);
+    width: 93%;
+}
+
+.kor form button {
+    margin: 1%;
+}
+
+.kor .centre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-top: 7.5%;
+}
+
+.kor .extra {
+    background-color: var(--korBackgroundColour);
+    border-radius: 7.5px;
+    width: 25%;
+}
+
+.kor .extra-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kor .logo {
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.kor .imageList {
+    padding: 1.5%;
+    display: inline-block;
+    background-color: var(--korRed);
+    border-radius: 8px;
+    width: 87%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.kor .IL {
+    display: flex;
+    width: 52%;
+}
+
+.kor .imgCardOptions {
+    width: 29%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    cursor: pointer;
+}
+
+.kor .weather {
+    float: right;
+    margin-right: 10%;
+}
+
+.kor .designTitle {
+    text-align: center;
+}
+
+.kor .sources {
+    margin-left: 5%;
+}
+
+.kor .red {
+    color: var(--korRed);
+}
+
+.kor .blue {
+    color: var(--korBlue);
+}
+
+.kor .share {
+    width: 45%;
+    margin-left: 12%;
+}

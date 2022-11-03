@@ -1,0 +1,270 @@
+@import "styles.css";
+
+.br{
+    background-color: var(--brBackgroundColour);
+    padding: 3% 0;
+    /* height: 100vh; */
+}
+
+.br .hide {
+    display: none;
+}
+
+.br img {
+    /* height: 27%; */
+    width: 70%;
+    margin-top: 2.5%;
+    margin-left: 13%;
+    margin-bottom: 2.5%;
+    /* margin-right: 2.5%; */
+}
+
+.br a {
+    text-decoration: none;
+    font-family: var(--brFont-secondary);
+    color: var(--brGreen);
+    font-weight: 800;
+}
+
+.br h1 {
+    font-family: var(--brFont-primary);
+    color: var(--brYellow);
+}
+
+.br h3 {
+    font-family: var(--brFont-secondary);
+    color: var(--brYellow);
+}
+
+.br p {
+    font-family: var(--brFont-secondary);
+    color: var(--brBlue); 
+}
+
+.br .shareButtons{
+    float: right;
+    margin-right: 9%;
+    margin-top: 1.5%;
+    width: 20%;
+    text-align: center;
+}
+
+.br .shareTitle {
+    font-family: var(--brFont-secondary);
+    color: var(--brGreen);
+    font-weight: 800;
+    text-align: center;
+    font-size: larger;
+}
+
+.br .backTitle {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    margin-right: 4%;
+    font-family: var(--brFont-secondary);
+}
+
+.br button {
+    font-family: var(--brFont-primary);
+    color: var(--brYellow);
+    background-color: var(--brBlue);
+    border-radius: 7.5px;
+}
+
+.br iframe {
+    pointer-events: none;
+}
+
+.br .title{
+    background-color: var(--brBlue);
+    padding: 20px 0;
+    padding-left: 20px;
+}
+
+.br .latest, .br .previewMessage {
+    background-color: var(--brOrange);
+    border-radius: 8px;
+    padding: 3%;
+    width: 65%;
+    margin-left: 5%;
+}
+
+.br .latest {
+    margin-top: -3%;
+}
+
+.br .writeMessage {
+    background-color: var(--brOrange);
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    border-radius: 8px;
+}
+
+.br .previewMessage {
+    padding: 1.5%;
+    width: 55%;
+    float: left;
+}
+
+.br .in {
+    background-color: var(--brBackgroundColour);
+    color: var(--brBlue);
+    font-weight: 625;
+    font-size: 3vmin;
+    border-radius: 7.5px;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.br .in h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.br .in p {
+    margin-left: 5%;
+}
+
+.br .latest-card {
+    margin-left: 0.75%;
+    margin-right: 0.75%;
+    background-color: var(--brBackgroundColour);
+    border-radius: 7.5px;
+    margin-bottom: 2%;
+}
+
+.br .links {
+    color: var(--brGreen);
+    font-family: var(--brFont-secondary);
+    text-align: right;
+    margin-right: 1.5%;
+    float:right;
+    cursor: pointer;
+}
+
+.br .CT {
+    font-weight:800;
+}
+
+.br .greeting {
+    color: var(--brGreen);
+    margin-right: 20%;
+    float: right;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.br .other-events, .br .fun-facts {
+    background-color: var(--brOrange);
+    border-radius: 8px;
+    padding: 3%;
+    margin: 0 5%
+}
+
+.br .other-events {
+    margin-top: -7%;
+    margin-bottom: 2%;
+}
+
+.br .fun-facts {
+    padding: 0.2% 2%;
+    margin-top: 3%;
+    display: inline-block;
+    margin-bottom: 2%;
+    width: 86%;
+}
+
+.br .fun-facts p {
+    background-color: var(--brBackgroundColour);
+    border-radius: 6px;
+    padding: 0.75%;
+    color: var(--brBlue);
+    font-family: var(--brFont-secondary);
+}
+
+.br form {
+    display: inline-grid;
+    width: 90%;
+    margin: 5%;
+}
+
+.br form input, .br form textarea {
+    margin: 1%;
+    background-color: var(--brBackgroundColour);
+    border-radius: 7.5px;
+    font-size: 18px;
+    font-family: var(--brFont-secondary);
+    color: var(--brBlue);
+    width: 93%;
+}
+
+.br form button {
+    margin: 1%;
+}
+
+.br .centre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-top: 7.5%;
+}
+
+.br .extra {
+    background-color: var(--brBackgroundColour);
+    border-radius: 7.5px;
+    width: 25%;
+}
+
+.br .extra-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.br .imageList {
+    padding: 1.5%;
+    display: inline-block;
+    background-color: var(--brOrange);
+    border-radius: 8px;
+    width: 87%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.br .IL {
+    display: flex;
+    width: 52%;
+}
+
+.br .imgCardOptions {
+    /* height:70%; */
+    width: 29%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    cursor: pointer;
+}
+
+.br .weather {
+    float: right;
+    margin-right: 10%;
+}
+
+.br .designTitle {
+    text-align: center;
+    color: var(--brBlue);
+}
+
+.br .sources {
+    margin-left: 5%;
+}
+
+.br .share {
+    width: 45%;
+    margin-left: 12%;
+}
+
+.br .green {
+    color: var(--brGreen);
+}

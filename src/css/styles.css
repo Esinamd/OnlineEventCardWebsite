@@ -1,0 +1,40 @@
+:root {
+    /* Ghanaian variables */
+    --ghFont-primary: 'Bree Serif', serif;
+    --ghFont-secondary: 'Nunito', sans-serif;
+
+    --ghBackgroundColour: #FFEBEE;
+    --ghBlack: #161613;
+    --ghRed: #9A031E;
+    --ghGreen: #3F7D20;
+    --ghGold: #CBA135;
+
+    /* Brazilian Variables */
+    --brFont-primary: 'Bree Serif', serif;
+    --brFont-secondary: 'Nunito', sans-serif;
+
+    --brBackgroundColour: #EBDECC;
+    --brBlue: #0039A3;
+    --brYellow: #F5F500;
+    --brOrange: #EA9010;
+    --brGreen: #20BF55;
+
+    /* Korean variables */
+    --korFont-Primary: 'Gowun Batang', serif;
+    --korFont-Secondary: 'Dongle', sans-serif;
+    
+    --korBackgroundColour: #DFE8F2;
+    --korBlack: #090A0B;
+    --korRed: #DD2D4A;
+    --korBlue: #3590F3;
+    --korWhite: #F5F3F5;
+
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
